@@ -2,6 +2,6 @@
 (defn fmap-nil
   [x y]
   ( let [value  (get x y ) ]
-    (nil? value)
+   	(nil? value)
     )
   )
