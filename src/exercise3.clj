@@ -1,19 +1,12 @@
-(comment  (ns exercise11)
-(defn fmap-nil
-  [x y]
-  ( let [value  (get x y ) ]
-    ( if (nil? value)
-      true
-      false
+(ns exercise3)
+
+(defn fibonacci
+  [n]
+  (if  (<= n 0)
+    0
+    ( if (= n 1)
+      1
+      (+  (fibonacci ( - n 1) ) (fibonacci (- n 2) ) )
       )
     )
-  )
 )
-
-(ns exercise11)
-(defn fmap-nil
-  [x y]
-  ( let [value  (get x y ) ]
-    (nil? value)
-    )
-  )

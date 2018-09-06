@@ -1,4 +1,4 @@
-(ns exercise4)
-(defn summary
+(ns exercise5)
+(defn flast
   [x]
-  ( reduce + (into [] x )  )  )
+  ( last  (into [] x )))
