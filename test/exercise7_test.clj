@@ -11,7 +11,7 @@
     (is (= (enesimo 0 ["FIUBA" "TDD" "7510"]) "FIUBA"))))
 	
 (deftest enesimo-elemento-mapa
-  (testing "Devuelve el enesimo elemento de un mapa."
+  (testing "Devuelve el enesimo elemento de un vector."
     (is (= (enesimo 0 [:FIUBA :TDD :7510]) :FIUBA))))
 
 (deftest enesimo-lista-strings
