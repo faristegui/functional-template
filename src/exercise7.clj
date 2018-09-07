@@ -1,5 +1,5 @@
 (ns exercise7)
-(defn separador
+(defn enesimo
   [x y]
-  (split-at x y)
+  (nth y x)
 )
