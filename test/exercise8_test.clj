@@ -15,7 +15,7 @@
 )
 
 (deftest separador-vector-de-vectores
-  (testing "Devuelve enesimo elemento de una lista de strings"
+  (testing "Separa el vector de vectores en la posicion pasada por parametro"
     (is (= (separador 2 [[1 2] [3 4] [5 6]]) ['([1 2] [3 4]) '([5 6])])
   )
 )
